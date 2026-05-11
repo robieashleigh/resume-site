@@ -5,7 +5,7 @@ export default function Contact({ personal }) {
         { label: personal.email, href: `mailto:${personal.email}`, ariaLabel: 'Send email' },
         { label: 'LinkedIn', href: personal.linkedin, ariaLabel: 'LinkedIn profile', external: true },
         ...(personal.github ? [{ label: 'GitHub', href: personal.github, ariaLabel: 'GitHub profile', external: true }] : []),
-        { label: personal.phone, href: `tel:${personal.phone.replace(/\D/g, '')}`, ariaLabel: 'Phone number' },
+        // { label: personal.phone, href: `tel:${personal.phone.replace(/\D/g, '')}`, ariaLabel: 'Phone number' },
     ];
 
     return (

@@ -1,7 +1,7 @@
 export const personal = {
   name: "Ashleigh Robie",
   title: "Software Engineer",
-  location: "Lake Elsinore, CA",
+  location: "California",
   email: "robie.ashleigh@gmail.com",
   phone: "571-314-8705",
   linkedin: "https://www.linkedin.com/in/ashleigh-robie-708a99183",
