@@ -1,0 +1,21 @@
+.footer {
+    background: var(--color-offwhite);
+    border-top: var(--border-divider);
+    padding: 1.25rem 2.5rem;
+}
+
+.inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.inner p {
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    color: var(--color-midslate);
+}

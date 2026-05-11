@@ -1,0 +1,120 @@
+.hero {
+  position: relative;
+  overflow: hidden;
+  background: var(--color-deep);
+  padding: 5rem 2.5rem;
+}
+.ringOuter, .ringInner {
+  position: absolute;
+  border-radius: 50%;
+  pointer-events: none;
+}
+.ringOuter {
+  width: 420px; height: 420px;
+  top: -80px; right: -80px;
+  border: 1px solid rgba(13, 80, 104, 0.6);
+}
+.ringInner {
+  width: 260px; height: 260px;
+  top: 60px; right: 60px;
+  border: 1px solid rgba(8, 58, 80, 0.6);
+}
+.content {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: #083a50;
+  border: 1px solid #0d5570;
+  color: var(--color-midslate);
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  padding: 0.3rem 0.85rem;
+  border-radius: var(--radius-sm);
+  margin-bottom: 1.75rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.dot {
+  width: 6px; height: 6px;
+  border-radius: 50%;
+  background: #22c55e;
+  flex-shrink: 0;
+}
+.headline {
+  font-size: clamp(2.4rem, 5vw, 4.2rem);
+  font-weight: 800;
+  line-height: 0.98;
+  letter-spacing: -0.04em;
+  color: var(--color-white);
+  margin-bottom: 1.5rem;
+}
+.nameAccent {
+  font-style: normal;
+  color: var(--color-cerulean);
+}
+.summary {
+  font-size: 0.92rem;
+  color: var(--color-midslate);
+  max-width: 520px;
+  line-height: 1.8;
+  margin-bottom: 2.5rem;
+}
+.actions {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.btnPrimary, .btnOutline {
+  display: inline-block;
+  padding: 0.7rem 1.6rem;
+  border-radius: var(--radius-sm);
+  font-family: var(--font-display);
+  font-size: 0.875rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition: opacity 0.2s ease, transform 0.15s ease;
+}
+.btnPrimary {
+  background: var(--color-cerulean);
+  color: #fff;
+  border: none;
+}
+.btnPrimary:hover { opacity: 0.88; transform: translateY(-1px); }
+.btnOutline {
+  background: transparent;
+  color: var(--color-midslate);
+  border: 1px solid #1a4f66;
+}
+.btnOutline:hover { border-color: var(--color-cerulean); color: var(--color-white); }
+.statsStrip {
+  display: flex;
+  gap: 3rem;
+  flex-wrap: wrap;
+  margin-top: 4rem;
+  padding-top: 2.5rem;
+  border-top: 1px solid #0d4560;
+}
+.stat { display: flex; flex-direction: column; gap: 0.3rem; }
+.statNum {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: var(--color-white);
+  line-height: 1;
+}
+.statLabel {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  color: var(--color-midslate);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+@media (max-width: 600px) {
+  .hero { padding: 3rem 1.5rem; }
+  .statsStrip { gap: 2rem; }
+  .ringOuter, .ringInner { display: none; }
+}
