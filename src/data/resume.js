@@ -3,35 +3,35 @@ export const personal = {
   title: "Software Engineer",
   location: "California",
   email: "robie.ashleigh@gmail.com",
-  linkedin: "https://www.linkedin.com/in/ashleigh-robie-708a99183",
+  linkedin: "https://www.linkedin.com/in/ashleigh-robie/",
   github: "",
   summary:
-    "4+ years building production-grade systems in clinical and enterprise environments. I bring an ownership mindset, cross-functional fluency, and a track record of delivering when the stakes are high — from LIMS platform engineering to full-stack rescue projects.",
+    "5 years building production-grade systems in clinical and enterprise environments. I bring an ownership mindset, cross-functional fluency, and a track record of delivering when the stakes are high — from LIMS platform engineering to full-stack rescue projects.",
   contactNote:
     "Open to senior engineering roles — especially in clinical, enterprise, or mission-critical systems.",
 };
 
 export const stats = [
-  { value: "4+",  label: "Years production exp." },
-  { value: "30%", label: "Above sprint velocity" },
-  { value: "26",  label: "Req. corrections / sprint" },
-  { value: "1st", label: "Hackathon — full CS program" },
+  { value: "5+",    label: "Years production exp." },
+  { value: "30%",  label: "Above sprint velocity" },
+  { value: "4.4x", label: "Faster processing time" },
+  { value: "1st",  label: "Hackathon — full CS program" },
 ];
 
 export const skills = [
   {
     group: "Primary",
-    items: ["C#", "SQL", "Python", "LIMS Platform Dev", "API Integration", "Data Modeling"],
+    items: ["SQL", "Python", "Java", "LIMS Platform Dev", "API Integration", "Data Modeling"],
     level: "hot",
   },
   {
     group: "Proficient",
-    items: ["Java", "C++", "Git", "Linux", "CI/CD Pipelines", "Agile / SDLC", "Automated Testing", "System Integration"],
+    items: ["Git", "Linux", "CI/CD Pipelines", "Agile / SDLC", "Jira", "Confluence", "Automated Testing", "System Integration", "PyCharm", "Visual Studio"],
     level: "med",
   },
   {
     group: "Familiar",
-    items: ["React.js", "JavaScript", "HTML/CSS", "TensorFlow", "Visual Studio", "PyCharm"],
+    items: ["C++", "C#", "React.js", "JavaScript", "HTML/CSS", "TensorFlow"],
     level: "base",
   },
   {
@@ -57,13 +57,15 @@ export const experience = [
   {
     id: "shoot-indoors",
     role: "Web Developer",
-    company: "Shoot Indoors",
+    company: "Go Shoot Indoors",
     location: "Remote",
     period: "Jan 2026 — Present  ·  part-time",
     bullets: [
-      "Designing and developing the Go Shoot Indoors franchise website with a focus on user engagement, visual polish, and cross-device usability.",
-      "Builds client-facing features using HTML, CSS, and JavaScript — translating stakeholder requirements into functional, well-crafted interfaces.",
-      "Collaborates directly with franchise clients to align design decisions with business goals and user needs.",
+      "Actively enhances and expands the Go Shoot Indoors franchise website using HTML, CSS, and JavaScript, delivering a functional, engaging user experience for customers across locations.",
+      "Designs and builds new pages based on evolving requirements from clients and end-users, translating business needs into clean, usable web features.",
+      "Maintains up-to-date state and federal firearm law content on the site, ensuring customers across locations see accurate, compliance-relevant information.",
+      "Implemented a CI/CD pipeline integrating GitHub Actions with DreamHost, replacing manual file uploads with automated git-based deploys — saving roughly 5 minutes per release and enabling other developers to clone and contribute via Git instead of manually downloading files from the host.",
+      "Collaborates continuously with business stakeholders to ensure the platform effectively meets both operational goals and usability standards.",
     ],
   },
   {
@@ -73,10 +75,10 @@ export const experience = [
     location: "Remote",
     period: "Oct 2024 — Present",
     bullets: [
-      "Functions as de facto engineering lead over a team of 2 spanning onshore, offshore, and contract resources — without the formal title.",
+      "Functions as a de facto engineering lead, without the title — directly responsible for 2 offshore engineers, collaborates closely with 2 onshore engineers, and trains and onboards contracted resources to get them up to speed on the system.",
       "Directs full delivery lifecycle for enterprise LIMS features supporting complex, high-availability clinical workflows: requirements through deployment and continuous improvement.",
-      "Reviewed and corrected an average of 26 requirements per sprint alongside BA teams, catching domain errors before they became downstream defects.",
-      "Consistently drives sprint performance averaging 30% above sprint capacity — combining velocity with quality ownership.",
+      "Drives sprint performance averaging 30% above sprint capacity, including a standout sprint delivering 80 points against a 24-point capacity (333% of capacity).",
+      "Optimized Anatomical Pathology processing time by 4.4x, reducing runtime from 40 seconds to 9 seconds.",
       "Conducts code reviews, mentors developers, and promotes engineering standards that raise the floor for the entire team.",
       "Trusted by leadership to deliver when the stakes are high; regularly sought out for candid ground-level perspective on project health.",
     ],
@@ -126,7 +128,7 @@ export const projects = [
     number: "01",
     title: "Go Shoot Indoors Website",
     description:
-      "Designing and developing the franchise website for Shoot Indoors — focused on user engagement, visual polish, and cross-device usability using HTML, CSS, and JavaScript.",
+      "Designing and developing the franchise website for Go Shoot Indoors — focused on user engagement, visual polish, and cross-device usability using HTML, CSS, and JavaScript.",
     tags: ["HTML", "CSS", "JavaScript", "Client Work"],
     link: "",
   },
